@@ -1,0 +1,49 @@
+{
+  "undigitisedImageURLs": [
+    "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSU6cEBRJzyM2fUJAYSDtUIwqDWscstvpRwQZYL6gqiDKKMdkW6eg",
+    "http://s3.amazonaws.com/dummy-bucket/uploads/prescription_images/158087651/MC-pharmacy_medsManager_winter07_rxproof_1_zpseqadzass.jpg?1438096567",
+    "http://s3.amazonaws.com/dummy-bucket/uploads/prescription_images/158087652/Prescription_portion_zps7b9impk4.png?1438096567",
+    "http://s3.amazonaws.com/dummy-bucket/uploads/prescription_images/158087653/MC-pharmacy_medsManager_winter07_rxproof_1_zpseqadzass.jpg?1438096567"
+  ],
+  "digitisedPrescriptions": [
+    {
+      "id": 6,
+      "refNo": null,
+      "date": "28 Jul 2015",
+      "expiryDate": "07 Aug 2015",
+      "isExpired": "0",
+      "patientName": "spock",
+      "doctorName": "dr who",
+      "dosage": [
+        "variant-24",
+        "variant-25"
+      ]
+    },
+    {
+      "id": 7,
+      "refNo": null,
+      "date": "28 Jul 2015",
+      "expiryDate": "07 Aug 2015",
+      "isExpired": "0",
+      "patientName": "spock",
+      "doctorName": "dr who",
+      "dosage": [
+        "variant-26"
+      ]
+    },
+    {
+      "id": 8,
+      "refNo": null,
+      "date": "28 Jul 2015",
+      "expiryDate": "07 Aug 2015",
+      "isExpired": "0",
+      "patientName": "spock",
+      "doctorName": "dr who",
+      "dosage": [
+        "variant-27",
+        "variant-28"
+      ],
+      "moreCount": 3
+    }
+  ]
+}

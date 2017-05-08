@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Server Url</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>http://staging.frankross.in/api/</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>base_url</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Algolia Index</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>staging_1_</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>algolia_index</string>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Privacy Url</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+			<key>DefaultValue</key>
+			<string>https://staging.frankross.in/privacy_policy.html</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>Key</key>
+			<string>privacy_url</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+		</dict>
+        <dict>
+            <key>Title</key>
+            <string>API Status (1: Live, 2:DEPRECATED, 3:DISCONTINUED)</string>
+            <key>Type</key>
+            <string>PSGroupSpecifier</string>
+        </dict>
+        <dict>
+            <key>AutocapitalizationType</key>
+            <string>None</string>
+            <key>AutocorrectionType</key>
+            <string>No</string>
+            <key>DefaultValue</key>
+            <string>1</string>
+            <key>IsSecure</key>
+            <false/>
+            <key>Key</key>
+            <string>api_status</string>
+            <key>KeyboardType</key>
+            <string>NumberPad</string>
+            <key>Type</key>
+            <string>PSTextFieldSpecifier</string>
+        </dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

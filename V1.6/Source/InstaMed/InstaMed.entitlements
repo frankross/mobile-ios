@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.developer.associated-domains</key>
+	<array>
+		<string>applinks:qoz8.test-app.link</string>
+		<string>applinks:qoz8-alternate.app.link</string>
+		<string>applinks:qoz8.app.link</string>
+		<string>applinks:qoz8-alternate.test-app.link</string>
+		<string>applinks:www.frankross.in</string>
+		<string>applinks:frankross.in</string>
+	</array>
+</dict>
+</plist>

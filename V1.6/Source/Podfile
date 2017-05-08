@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '7.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'InstaMed' do
+
+    pod 'Google/SignIn'
+    pod 'BranchInvite'
+    pod 'NewRelicAgent', '~> 5.7'
+    pod 'apptentive-ios', '~> 3.2'
+
+end
+
+target 'InstaMedTests' do
+
+end
+

@@ -1,0 +1,96 @@
+{
+  "id": 19,
+  "refNo": null,
+  "date": "29 Jul 2015",
+  "expiryDate": "08 Aug 2015",
+  "patient": {
+    "name": "spock",
+    "age": "41 years",
+    "weight": "56.0 kg",
+    "height": "6 ft 3 inch",
+    "gender": "male"
+  },
+  "doctor": {
+    "name": "dr who",
+    "regNo": "reg-1",
+    "speciality": "bone surgery",
+    "phone": "+918123000001",
+    "mobile": "+918123000002",
+    "facility": "fortis",
+    "address": "jp nagar"
+  },
+  "dosageSchedule": {
+    "morning": [
+      {
+        "medicineName": "variant-57",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      },
+      {
+        "medicineName": "variant-58",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      },
+      {
+        "medicineName": "variant-59",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      },
+      {
+        "medicineName": "variant-60",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      }
+    ],
+    "afternoon": [
+      {
+        "medicineName": "variant-57",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      },
+      {
+        "medicineName": "variant-58",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      },
+      {
+        "medicineName": "variant-59",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      }
+    ],
+    "evening": [
+      {
+        "medicineName": "variant-57",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      },
+      {
+        "medicineName": "variant-58",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      }
+    ],
+    "night": [
+      {
+        "medicineName": "variant-57",
+        "quantity": "10 ml",
+        "whenToTake": "after food",
+        "duration": "10 Days"
+      }
+    ]
+  },
+  "symptoms": "symptoms",
+  "diagnosis": "diagnosis",
+  "testsPrescripred": "testsPrescripred",
+  "notesAndDirections": "notesAndDirections"
+}

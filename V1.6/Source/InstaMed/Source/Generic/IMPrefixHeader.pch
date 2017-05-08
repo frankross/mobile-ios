@@ -1,0 +1,32 @@
+//
+//  IMPrefixHeader.pch
+//  InstaMed
+//
+//  Created by Arjuna on 20/05/15.
+//  Copyright (c) 2015, Emami FrankRoss Ltd
+//  Written under contract by Robosoft Technologies Pvt. Ltd.
+//
+
+#ifndef InstaMed_IMPrefixHeader_pch
+#define InstaMed_IMPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "IMConstants.h"
+#import "IMTabBarController.h"
+#import "IMBaseModel.h"
+#import "IMDefines.h"
+#import "IMDatatypes.h"
+#import "IMDeviceUtilities.h"
+#import "IMFunctionUtilities.h"
+#import "IMFlurry.h"
+#import "Apptentive.h"
+#import <CFNetwork/CFNetwork.h>
+#import <NewRelicAgent/NewRelic.h>
+
+#if ! DEBUG
+#define NSLog(...)
+#endif
+
+#endif
